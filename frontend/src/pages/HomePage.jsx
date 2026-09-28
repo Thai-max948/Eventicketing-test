@@ -4,7 +4,7 @@ import apiClient from "../services/apiClient";
 
 function HomePage() {
   const [backendStatus, setBackendStatus] = useState("checking...");
-  const unusedValue =123;
+ 
 
   useEffect(() => {
     apiClient("/health")
